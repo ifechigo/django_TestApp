@@ -1,0 +1,21 @@
+body{
+font-family: 'Roboto Condensed', sans-serif;
+}
+.page-margin{
+margin-left: 10px;
+}
+.logo{
+font-size: 30px;
+}
+.card{
+    height: 400px;
+    overflow: hidden;
+}
+.card-image{
+    height: 230px;
+    overflow: hidden;
+}
+.card-content{
+    overflow: hidden;
+    height: 100px;
+}
