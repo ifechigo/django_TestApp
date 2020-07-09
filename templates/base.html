@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>django_TestApp</title>
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
 </head>
 <body>
 <nav>
     <div class="nav-wrapper page-margin">
-        <a href="/" class="logo">Ifechigo django</a>
+        <a href="{% url 'home' %}" class="logo">Ifechigo</a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">home</a></li>
         </ul>
     </div>
 </nav>
 <div class="page-margin">
-    <h1 class="center">What do you want to search for on Ifechigo's django_TestApp</h1>
+    <h1 class="center" style="font-size: 38px;">What do you want to search for on Ifechigo's django_TestApp</h1>
     <div class="row">
         <div class="col s4">
             <! content one goes here -->
@@ -42,7 +42,9 @@
             <! content three goes here -->
             <div class="center">
                 <i class="fa fa-clone" style="font-size:48px;color:red"></i>
-                <p>a much sexier front-end to Craigslist</p>
+                <p>a much sexier front-end to
+                    <a style="color:black;" href="https://losangeles.craigslist.org/">Craigslist</a>
+                </p>
                 <p class="light center">built this with <i class="fa fa-heart" style="font-size:14px;color:red"></i> </p>
             </div>
         </div>
